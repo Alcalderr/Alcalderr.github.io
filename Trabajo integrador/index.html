@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trabajo Práctico integrador </title>
+    <style>
+        .form-title {
+            width: 100%;
+            font-size: 15px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .form-subtitle {
+            text-align: center;
+        }
+
+        .orador {
+            font-size: 40px;
+        }
+
+        /*.form-control{
+            width: 500px;
+        }
+        */
+        #btn-Submit {
+            width: 100%;
+        }
+
+        #text-box-form {
+            width: 100%;
+        }
+
+        .div-form {
+            width: 50%;
+        }
+
+        .table {
+            background-color: rgba(26, 58, 76, 0.99);
+            height: 100px;
+        }
+
+        .input-inline {
+            display: inline-block;
+            margin-left: 36px;
+        }
+
+        .col {
+            color: white;
+        }
+
+        #subindice-form {
+            opacity: 80%;
+            font-size: 13px;
+        }
+
+        #div-contenedor {
+            width: 50%;
+        }
+        .card-text {
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                
+                <fieldset class="field">
+                    <legend class="form-title">
+                        CONOCE A LOS <B class="orador"> <br> ORADORORES </br></B>
+                    </legend>
+                    <div id="div-contenedor" class="d-flex justify-content-around mx-auto">
+                        <div class="d-inline-flex p-2">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./src/steve.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Steve Jobs</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odio nisi nulla error. Voluptatum, deserunt nisi. Nulla labore corrupti deserunt doloremque, obcaecati libero in iure aspernatur voluptatibus! Fuga, exercitationem autem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-inline-flex p-2 bd-highlight">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./src/bill.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bill Gates</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odio nisi nulla error. Voluptatum, deserunt nisi. Nulla labore corrupti deserunt doloremque, obcaecati libero in iure aspernatur voluptatibus! Fuga, exercitationem autem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-inline-flex p-2 bd-highlight">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./src/ada.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ada Lovelace</h5>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odio nisi nulla error. Voluptatum, deserunt nisi. Nulla labore corrupti deserunt doloremque, obcaecati libero in iure aspernatur voluptatibus! Fuga, exercitationem autem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+            <fieldset class="field">
+                <legend class="form-title">
+                    CONVIÉRTETE EN UN <B class="orador"> <br> ORADOR </br></B>
+                </legend>
+                <legend class="form-subtitle"> Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres
+                    hablar!</legend>
+                    <div class="div-form mx-auto">
+                        <form>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" placeholder="Nombre" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" placeholder="Apellido" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="text-box-form" class="form-outline mb-1">
+                                <textarea class="form-control" placeholder="Texto" rows="5"></textarea>
+                            </div>
+                            <p id="subindice-form" class="mb-3"> Recuerda incluir un título para tu charla </p>
+                            <button type="submit" id="btn-Submit" class="btn btn-success btn-block mb-4">Enviar</button>
+                        </form>
+                    </div>
+                    <!-- <div class="div-form align-items-center"> 
+                        <form>
+                            <input type="text" name="Nombre" placeholder="Nombre" required class="form-control mb-3 input-inline">
+                            <input type="text" name="Apellido" placeholder="Apellido" required class="form-control mb-3 input-inline">
+                            <br>    
+                            <textarea name="info-extra" cols="55" rows="5" placeholder="Sobre qué quieres hablar?" required class="form-control input-inline"> </textarea>
+                            <br>
+                            <p id="subindice-form" class="mb-3 input-inline"> Recuerda incluir un título para tu charla </p>
+                            <br>
+                            <input type="submit" value="Enviar" id="Enviar" class="mb-3 input-inline">
+                        </form> 
+                    </div>
+                -->
+            </fieldset>
+        </section>
+        <div class="footer">
+            <table class="table">
+                <tr>
+                    <td class="col"> Preguntas frecuentes </td>
+                    <td class="col"> Contáctanos </td>
+                    <td class="col"> Prensa </td>
+                    <td class="col"> Conferencias </td>
+                    <td class="col"> Términos y condiciones </td>
+                    <td class="col"> Privacidad </td>
+                    <td class="col"> Estudiantes </td>
+                </tr>
+            </table>
+         </div>
+        </div>
+    </main>
+</body>
+
+</html>
